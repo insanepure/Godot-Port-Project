@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dynsx5xoa31g5"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_cndq2"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="."]
+position = Vector2(571, 302)
+scale = Vector2(300, 300)
+mesh = SubResource("QuadMesh_cndq2")
